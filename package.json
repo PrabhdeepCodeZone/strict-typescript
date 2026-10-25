@@ -1,0 +1,22 @@
+{
+  "name": "strict-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strict TypeScript demos — typed examples you can run and learn from",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "demo": "tsx src/index.ts",
+    "demo:null": "tsx src/01-null-safety.ts",
+    "demo:narrowing": "tsx src/02-narrowing.ts",
+    "demo:generics": "tsx src/03-generics.ts",
+    "demo:unions": "tsx src/04-discriminated-unions.ts",
+    "demo:satisfies": "tsx src/05-satisfies-and-const.ts",
+    "demo:result": "tsx src/06-result-pattern.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.3"
+  }
+}
